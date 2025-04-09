@@ -1,0 +1,12 @@
+name: new workflow
+on:
+  pull_request:
+    types: [closed]
+jobs:
+  the-power-actions-demo-new:
+    runs-on: ubuntu-latest
+    steps:
+
+      - name: check-curl-version-new
+        run: |
+          echo new workflow
