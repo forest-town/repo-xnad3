@@ -9,4 +9,4 @@ jobs:
 
       - name: check-curl-version
         run: |
-          echo pr closed
+          echo Security issue?
